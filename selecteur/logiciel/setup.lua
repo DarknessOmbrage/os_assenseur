@@ -56,7 +56,7 @@ local function initial()
 end
 --appelle des functions
 term.clear()
-os.loadAPI("Templates/accueil.lua")
+os.loadAPI("Templates/accueil")
 tb_Draw()
 tb_Draw2()
 tb_Draw3()
@@ -70,7 +70,7 @@ if text == ("1") then
     message()
     --initial()
     rednet.send(4, "1")
-    os.loadAPI("logiciel/data/1tage.lua")
+    os.loadAPI("logiciel/data/1tage")
     --print("monte dans l'assanseur décole dans 10 sec !!")
 
     
@@ -88,12 +88,12 @@ if text == ("1") then
     ]]
 elseif text == ("admin") then
     
-    os.loadAPI("logiciel/data/admin.lua")
+    os.loadAPI("logiciel/data/admin")
     
 elseif text == ("panne") then
     rednet.send(4, "panne")
     sleep(1)
-    os.loadAPI("logiciel/data/panne.lua")
+    os.loadAPI("logiciel/data/panne")
     
 --[[elseif text == ("initial") then
         print("Position initial en cours !!")
@@ -104,7 +104,7 @@ elseif text == ("panne") then
         os.reboot()
         ]]
 else
-    os.loadAPI("logiciel/data/error.lua")
+    os.loadAPI("logiciel/data/error")
     
     
 end

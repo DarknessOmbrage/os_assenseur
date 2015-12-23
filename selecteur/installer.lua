@@ -1,17 +1,17 @@
 local url = "https://raw.github.com/Siddu62/os_assenseur/master/selecteur/"
 local files = {}
 local filelist = {
-	'rb.lua';
-	'startupbis.lua';
-	'logiciel/setup.lua';
-	'logiciel/data/1tage.lua';
-	'logiciel/data/admin.lua';
-	'logiciel/data/as_en_haut.lua';
-	'logiciel/data/error.lua';
-	'logiciel/data/panne.lua';
-	'templates/accueil.lua';
-	'templates/background2.lua';
-	'resettotal.lua';
+	'rb';
+	'startupbis';
+	'logiciel/setup';
+	'logiciel/data/1tage';
+	'logiciel/data/admin';
+	'logiciel/data/as_en_haut';
+	'logiciel/data/error';
+	'logiciel/data/panne';
+	'templates/accueil';
+	'templates/background2';
+	'resettotal';
 }
 
 local function clear()

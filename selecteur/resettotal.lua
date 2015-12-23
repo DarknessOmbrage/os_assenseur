@@ -8,16 +8,16 @@ print "erase [Y/n]"
 				print "not erase !"
 	else
 		
-		if fs.exists('resettotal.lua') then
-			fs.delete('resettotal.lua')
+		if fs.exists('resettotal') then
+			fs.delete('resettotal')
 		end
 		
-		if fs.exists('startup.lua') then
-			fs.delete('startup.lua')
+		if fs.exists('startup') then
+			fs.delete('startup')
 		end
 		
-		if fs.exists('startup-old.lua') then
-			fs.delete('startup-old.lua')
+		if fs.exists('startup-old') then
+			fs.delete('startup-old')
 		end
 		
 		if fs.exists('templates') then
@@ -28,16 +28,16 @@ print "erase [Y/n]"
 			fs.delete('logiciel')
 		end
 		
-		if fs.exists('rb.lua') then
-			fs.delete('rb.lua')
+		if fs.exists('rb') then
+			fs.delete('rb')
 		end
 		
-		if fs.exists('startupbis.lua') then
-			fs.delete('startupbis.lua')
+		if fs.exists('startupbis') then
+			fs.delete('startupbis')
 		end
 		
-		if fs.exists('installer.lua') then
-			fs.delete('installer.lua')
+		if fs.exists('installer') then
+			fs.delete('installer')
 		end
 			
 print "erase DONE !"
