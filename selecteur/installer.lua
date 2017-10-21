@@ -9,8 +9,8 @@ local filelist = {
 	'logiciel/data/as_en_haut.lua';
 	'logiciel/data/error.lua';
 	'logiciel/data/panne.lua';
-	--'templates/accueil.lua';
-	--'templates/background2.lua';
+	'Templates/accueil.lua';
+	'Templates/background2.lua';
 	'resettotal.lua';
 }
 
