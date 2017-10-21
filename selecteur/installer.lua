@@ -70,7 +70,7 @@ if not installed then
 	clear()
 	
 	local startupContent = [[
-		shell.run("startupbis")
+		shell.run("startupbis.lua")
 	]]
 	
 	write "Run os_assenseur on startup? "
