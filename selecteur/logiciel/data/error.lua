@@ -22,7 +22,7 @@ end
 
 os.pullEvent = os.pullEventRaw
 term.clear()
-os.loadAPI("Templates/background2")
+os.loadAPI("Templates/background2.lua")
 versionOS()
 erreur()
 rednet.send(4, "error")

@@ -19,14 +19,14 @@ end
 --appelle functions
 os.pullEvent = os.pullEventRaw
         term.clear()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
         versionOS()
         Draw()
         print("assenseur au premier etage")
 local id,command,pos = rednet.receive()
 if id == 4 then
         term.clear()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
         versionOS()
         Draw()
         print("assenseur au premier etage")

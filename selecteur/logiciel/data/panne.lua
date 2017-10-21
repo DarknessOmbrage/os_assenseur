@@ -22,7 +22,7 @@ end
 --appelle functions
 os.pullEvent = os.pullEventRaw
         term.clear()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
         versionOS()
         panne()
 --rs.setOutput("back", 13)
@@ -31,7 +31,7 @@ os.pullEvent = os.pullEventRaw
 local id,command,pos = rednet.receive()
 if id == 4 then
         term.clear()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
         versionOS()
         panne()
         if command == "ok" then

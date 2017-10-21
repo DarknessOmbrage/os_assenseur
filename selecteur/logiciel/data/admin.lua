@@ -27,7 +27,7 @@ local function message()
 end
 
 local function background()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
 
 end
 

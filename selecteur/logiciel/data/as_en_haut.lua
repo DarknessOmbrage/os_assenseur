@@ -31,7 +31,7 @@ end
 --appelle functions
 os.pullEvent = os.pullEventRaw
         term.clear()
-        os.loadAPI("Templates/background2")
+        os.loadAPI("Templates/background2.lua")
         versionOS()
         message()
 Draw()
@@ -52,5 +52,5 @@ elseif text == ("y") then
         os.reboot()
         
 else
-        os.loadAPI("logiciel/data/error")
+        os.loadAPI("logiciel/data/error.lua")
 end

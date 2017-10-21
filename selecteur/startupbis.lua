@@ -13,12 +13,12 @@ if id == 4 then
         rednet.send(4, ok)
         print("DONE !")
         sleep(1)
-        os.loadAPI("logiciel/setup")
+        os.loadAPI("logiciel/setup.lua")
         
     end
     
     if command == "aeh" then
-        os.loadAPI("logiciel/data/as_en_haut")
+        os.loadAPI("logiciel/data/as_en_haut.lua")
     
     end
     
