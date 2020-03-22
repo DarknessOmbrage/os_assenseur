@@ -1,9 +1,9 @@
 local url = "https://raw.github.com/Siddu62/os_assenseur/master/surveillance/"
 local files = {}
 local filelist = {
-	'reseption';
-	'startupbis';
-	'resettotal';
+	'reseption.lua';
+	'startupbis.lua';
+	'resettotal.lua';
 }
 
 local function clear()

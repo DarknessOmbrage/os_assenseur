@@ -1,12 +1,12 @@
 local url = "https://raw.github.com/Siddu62/os_assenseur/master/resepteur/"
 local files = {}
 local filelist = {
-	'sd.lua';
-	'startupbis.lua';
-	'logiciel/setup.lua';
-	'logiciel/data/1tage.lua';
-	'logiciel/data/panne.lua';
-	'resettotal.lua';
+	'sd';
+	'startupbis';
+	'logiciel/setup';
+	'logiciel/data/1tage';
+	'logiciel/data/panne';
+	'resettotal';
 }
 
 local function clear()
